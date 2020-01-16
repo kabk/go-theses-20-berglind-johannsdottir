@@ -1,32 +1,33 @@
 /*
 Theme Name: Thesis Green
 Author: Berglind Brá Jóhannsdóttir
-Version: 0.0.2
+Version: 0.0.3
 */
 
-@font-face {
-    font-family: 'ortica';
-    src: url(Ortica-Light.woff);
-}
+/* fonts and view */
+  @font-face {
+      font-family: 'ortica';
+      src: url(Ortica-Light.woff);
+  }
 
-@font-face {
-    font-family: 'coastline';
-    src: url(Coastline-Regular.woff);
-}
-@font-face {
-    font-family: 'folsom';
-    src: url(folsom-black-web.woff);
-}
+  @font-face {
+      font-family: 'coastline';
+      src: url(Coastline-Regular.woff);
+  }
+  @font-face {
+      font-family: 'folsom';
+      src: url(folsom-black-web.woff);
+  }
 
-@-ms-viewport{
-  width: device-width;
-  height: device-height;
-}
-html {
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
-}
+  @-ms-viewport{
+    width: device-width;
+    height: device-height;
+  }
+  html {
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+  }
 
 
 body {
@@ -137,46 +138,30 @@ a {
 }
 .abstract {
   top: 0%;
-  /*background-color: rgb(217,247,227);
-  background-color: rgb(76,187,23);*/
-  
 }
 .preface {
   top: 0%;
-  /*background-color: rgb(115,234,137);
-  background-color: rgb(155,225,168);
-
-
-  background-color: rgb(96,207,43);*/
-  
 }
 .preface p {
-  /*background-color: rgba(155,225,168,.8);*/
 }
 .index {
   top: 0%;
-  /*background-color: rgb(217,247,227);*/
   background-image: url(igms/index/fluff.png);
   background-size: 30%;
   background-position: bottom 20px right 30px;
   background-repeat: no-repeat;
 
   background-color: rgb(106,217,53);
-  /*background-color: rgb(14,37,18);*/
   background-color: rgb(46,177,93);
   
 }
 .index a, .index div {
   color: rgba(235,255,235,1) !important;
-  /*font-family: 'folsom';*/
 }
-.index .titill {
+.index .textContainer div {
   font: 40px 'Vidaloka';
   line-height: 22px;
   text-transform: uppercase;
-}
-.index .textContainer div {
-  /*font-family: 'Permanent Marker', cursive !important;*/
 }
 .intro {
   top: 0%;
