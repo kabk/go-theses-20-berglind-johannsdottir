@@ -18,25 +18,20 @@ Version: 0.0.2
     src: url(folsom-black-web.woff);
 }
 
-@font-face {
-    font-family: 'bodoni';
-    src: url(Bodoni 72 OS.ttc);
-}
-
 @-ms-viewport{
   width: device-width;
   height: device-height;
+}
+html {
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
 }
 
 
 body {
   height: 100vh;
   width: 100vw;
-  /*background-color: rgba(10,10,30,1);
-  background-color: lightgreen;
-  background-color: rgb(14,37,18);
-  background-color: rgb(76,187,23);*/
-  background-color: rgb(225,255,225);
   background-color: rgba(235,255,235,1);
 
   margin: 0px !important;
@@ -45,11 +40,7 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
-html {
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
-}
+
 
 a {
   text-decoration: none;
