@@ -7,6 +7,10 @@
     font-family: 'coastline';
     src: url(Coastline-Regular.woff);
 }
+@font-face {
+    font-family: 'folsom';
+    src: url(folsom-black-web.woff);
+}
 
 @font-face {
     font-family: 'bodoni';
@@ -154,6 +158,12 @@ a {
   background-repeat: no-repeat;
 
   /*background-color: rgb(106,217,53);*/
+  background-color: rgb(36,87,23);
+  
+}
+.index a, .index p, .index div {
+  color: rgba(245,255,245,1) !important;
+  font-family: 'folsom';
 }
 .index .textContainer div {
   /*font-family: 'Permanent Marker', cursive !important;*/
