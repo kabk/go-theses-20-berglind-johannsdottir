@@ -79,23 +79,29 @@ a {
   line-height: 22px;
 }
 
-.indexMenu p {
+.indexMenu p, .indexMenu a {
   position: relative;
   top: 0px;
   margin-top: 20px;
   margin-bottom: 10px !important;
   cursor: pointer;
+
+  /*color: rgba(235,255,235,1) !important;*/
+  color: rgb(14,85,18);
+
+
 }
-.indexMenu p:hover {
-  background-color: lightgreen;
+.indexMenu p:hover, .indexMenu a:hover {
+  /*background-color: lightgreen;
   border-top: 2px solid rgb(14,37,18);
+  border-top: 3px solid rgb(14,85,18);
   border-radius: 30px;
-  /*border-bottom: 2px solid rgb(14,37,18);*/
-}
-.indexMenu a:hover {
-  color: blue;
-  border-bottom: 2px solid rgb(14,37,18);
-  border-radius: 30px;
+  border-bottom: 2px solid rgb(14,37,18);*/
+
+  color: rgba(235,255,235,1) !important;
+
+  /*border-bottom: 2px solid rgb(14,37,18);
+  border-radius: 30px;*/
 }
 .openMenu {
   position: fixed;
@@ -324,13 +330,15 @@ a {
 
 ::-webkit-scrollbar {
   -webkit-appearance: none;
-  width: 7px;
-  height: 7px;
+  width: 10px;
+  height: 10px;
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 0%;
-  background-color: rgba(255, 255, 255, 1);
-  border: solid 1px rgb(14,37,18);
+  background-color: rgba(14,85,18, 1);
+  /*border: solid 1px rgb(14,37,18);*/
+  border: solid 1px rgb(14,85,18);
+  border-radius: 5px;
 }
 
 
@@ -408,7 +416,7 @@ a {
   .container {
     width: 80%;
     margin-left: 20vw !important;
-    border-left: 1px solid rgb(14,37,18);
+    /*border-left: 1px solid rgb(14,37,18);*/
   }
   .underlinegrass {
     left: 23%;
@@ -437,7 +445,11 @@ a {
     line-height: 22px !important;
 
     background-color: white;
-  }
+    background-color: rgb(46,177,93);
+    /*background-color: rgb(14,85,18);*/
+    border-right: solid 2px rgb(14,85,18);
+  
+}
   .lineheightmore {
     line-height: 31px;
     line-height: 19px !important;
