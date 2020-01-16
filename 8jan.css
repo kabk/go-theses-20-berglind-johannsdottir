@@ -284,7 +284,7 @@ a {
   color: rgb(14,37,18);
   line-height: 28px;
   hyphens: none;
-  scroll-behavior: horizontal;
+  scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 
   font: 19px 'Playfair Display', serif;
