@@ -293,10 +293,10 @@ a {
 
 .textContainer {
   position: absolute;
-  height: 90%;
+  height: 88vh;
 
   left: 0%;
-  top: 10%;
+  top: 8vh;
   bottom: 0%;
   right: 0%;
   /*padding-top: 8%;
@@ -304,11 +304,9 @@ a {
   padding-right: 100px;
   padding-left: 30px;
 
-  
 
   overflow-x: scroll;
-
-    overflow-y: hidden;
+  overflow-y: hidden;
 
   color: #232b2b;
   color: rgb(14,37,18);
@@ -320,6 +318,8 @@ a {
 
   font: 19px 'Playfair Display', serif;
   line-height: 28px;
+
+  padding-bottom: calc(4vh);
 }
 .textContainer p {
   margin-bottom: 50px;
