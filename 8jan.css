@@ -136,6 +136,24 @@ a {
   scroll-snap-align: start;
   -webkit-overflow-scrolling: touch;
 }
+.cover {
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background-image: url(igms/base2.png);
+  /*background-size: 30%;
+  background-position: bottom 20px right 30px;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /*background-color: rgb(46,177,93);*/
+
+  text-align: center;
+  overflow-x: hidden;
+}
+.coverimage {
+  width: 100%;
+}
 .abstract {
   top: 0%;
 }
