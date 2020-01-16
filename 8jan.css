@@ -345,6 +345,10 @@ a {
 .skaletrad {
   font-style: italic;
 }
+.notes {
+  font-style: italic;
+  font-family: 'Ibarra Real Nova', serif !important;
+}
 .fyrirsogn {
   font: bold 17px 'pt sans';
   text-decoration: none;
