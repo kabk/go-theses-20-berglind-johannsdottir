@@ -125,6 +125,7 @@ a {
   border-bottom: 1px solid green;
 
   scroll-snap-align: start;
+  -webkit-overflow-scrolling: touch;
 }
 .abstract {
   top: 0%;
@@ -276,6 +277,7 @@ a {
   
 
   overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
     overflow-y: hidden;
 
   color: #232b2b;
