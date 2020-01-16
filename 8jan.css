@@ -31,6 +31,7 @@ body {
   background-color: rgb(14,37,18);
   background-color: rgb(76,187,23);*/
   background-color: rgb(225,255,225);
+  background-color: rgba(235,255,235,1);
 
   margin: 0px !important;
   overflow-y: scroll;
@@ -153,17 +154,23 @@ a {
   top: 0%;
   /*background-color: rgb(217,247,227);*/
   background-image: url(igms/index/fluff.png);
-  background-size: 50%;
+  background-size: 30%;
   background-position: bottom 20px right 30px;
   background-repeat: no-repeat;
 
-  /*background-color: rgb(106,217,53);*/
-  background-color: rgb(14,37,18);
+  background-color: rgb(106,217,53);
+  /*background-color: rgb(14,37,18);*/
+  background-color: rgb(46,177,93);
   
 }
-.index a, .index p, .index div {
-  color: rgba(225,255,225,1) !important;
-  font-family: 'folsom';
+.index a, .index div {
+  color: rgba(235,255,235,1) !important;
+  /*font-family: 'folsom';*/
+}
+.index .titill {
+  font: 40px 'Vidaloka';
+  line-height: 22px;
+  text-transform: uppercase;
 }
 .index .textContainer div {
   /*font-family: 'Permanent Marker', cursive !important;*/
@@ -247,8 +254,8 @@ a {
   /*border-bottom: 1px solid #232b2b;
   background-color: white;
   cursor: pointer;*/
-  /*font-family: 'Permanent Marker', cursive !important;*/
-  font-family: 'folsom';
+  /*font-family: 'Permanent Marker', cursive !important;
+  font-family: 'folsom';*/
 }
 .undertitle {
   font: 20px 'Girassol', cursive;
