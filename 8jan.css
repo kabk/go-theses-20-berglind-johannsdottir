@@ -158,11 +158,11 @@ a {
   background-repeat: no-repeat;
 
   /*background-color: rgb(106,217,53);*/
-  background-color: rgb(36,87,23);
+  background-color: rgb(14,37,18);
   
 }
 .index a, .index p, .index div {
-  color: rgba(245,255,245,1) !important;
+  color: rgba(225,255,225,1) !important;
   font-family: 'folsom';
 }
 .index .textContainer div {
