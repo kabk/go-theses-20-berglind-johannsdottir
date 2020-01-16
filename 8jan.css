@@ -1,7 +1,7 @@
 /*
 Theme Name: Thesis Green
 Author: Berglind Brá Jóhannsdóttir
-Version: 0.0.3
+Version: 0.0.4
 */
 
 /* fonts and view */
@@ -159,65 +159,31 @@ a {
   color: rgba(235,255,235,1) !important;
 }
 .index .textContainer div {
-  /*font: 40px 'Vidaloka';
-  line-height: 22px;
-  text-transform: uppercase;*/
 }
 .intro {
   top: 0%;
-  /*background-color: rgb(250,253,253);
-  background-color: lightgreen;
-
-  background-color: rgb(126,237,73);*/
 }
 .romance {
   top: 0%;
-  /*background-color: rgb(67,149,115);
-
-  background-color: rgb(146,255,93);*/
 }
-
 .feminine {
   top: 0%;
-  /*background-color: rgb(231,216,234);*/
-  /*background-image: url(igms/feminine/shoes.png);
-  background-size: 30%;
-  background-position: top 10px right 10px;
-  background-repeat: no-repeat;*/
 }
 .passive {
-  /*background-color: rgb(77,159,125);
-
-  background-color: rgb(166,255,113);*/
 }
 .lack {
-  /*background-color: rgb(87,169,135);
-
-  background-color: rgb(186,255,133);*/
 }
 .beast {
-  /*background-color: rgb(97,179,145);
-
-  background-color: rgb(206,255,153);*/
 }
 .attention {
-  /*background-color: rgb(107,189,155);
-
-  background-color: rgb(226,255,173);*/
 }
 .magic {
-  /*background-color: rgb(117,199,165);
-
-  background-color: rgb(246,255,193);*/
 }
 .magic .titill{
   font-family: 'coastline' !important;
   line-height: 32px;
 }
 .new {
-  /*background-color: rgb(255,255,255);
-
-  background-color: rgb(255,255,213);*/
 }
 
 .linkur {
@@ -232,24 +198,14 @@ a {
   right: 0%;
   text-align: center;
   top: 15px;
-  /*padding-left: 20px;
-  padding-right: 20px;*/
 
   z-index: 14;
   font: 40px 'Vidaloka';
-  /*line-height: 22px;*/
   line-height: 30px;
   color: rgb(14,37,18);
   color: rgb(14,85,18);
-  /*border-bottom: 1px solid #232b2b;
-  background-color: white;
-  cursor: pointer;*/
-  /*font-family: 'Permanent Marker', cursive !important;
-  font-family: 'folsom';*/
   letter-spacing: -2px;
   text-transform: uppercase;
-
-
 }
 .undertitle {
   font: 20px 'Girassol', cursive;
@@ -282,12 +238,11 @@ a {
   height: 81vh;
 
   left: 0%;
-  top: 14vh;
+  top: 15vh;
   bottom: 0%;
   right: 0%;
-  /*padding-top: 8%;
-  padding-bottom: 19px;*/
-  padding-right: 100px;
+  /*padding-right: 100px;*/
+  padding-right: 50px;
   padding-left: 30px;
 
 
@@ -303,8 +258,10 @@ a {
   -webkit-overflow-scrolling: touch;
 
   font: 19px 'Playfair Display', serif;
-  line-height: 28px;
-  line-height: 23px;
+  font-size: 16px;
+  /*line-height: 28px;
+  line-height: 23px;*/
+  line-height: 21px;
 
   padding-bottom: calc(4vh);
 }
