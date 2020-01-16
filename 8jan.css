@@ -1,7 +1,7 @@
 /*
 Theme Name: Thesis Green
 Author: Berglind Brá Jóhannsdóttir
-Version: 0.0.4
+Version: 0.0.5
 */
 
 /* fonts and view */
@@ -312,6 +312,7 @@ a {
   width: 200%;
   margin-left: -100%;
   /*float: right;*/
+  width: 100vw;
 }
 .quote {
   text-align: center !important;
