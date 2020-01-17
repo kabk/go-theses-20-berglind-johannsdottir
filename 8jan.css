@@ -288,6 +288,11 @@ a {
 .textContainer p {
   margin-bottom: 50px;
   margin-right: 30px;
+
+  background-color: rgba(235,255,235,1);
+}
+.withoutbackground {
+  background-color: rgba(0,0,0,0) !important;
 }
 
 
