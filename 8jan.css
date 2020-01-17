@@ -140,7 +140,7 @@ a {
   top: 0%;
   height: 100%;
   width: 100%;
-  background-image: url(igms/base2.png);
+  /*background-image: url(igms/base2.png);*/
   /*background-size: 30%;
   background-position: bottom 20px right 30px;*/
   background-size: cover;
