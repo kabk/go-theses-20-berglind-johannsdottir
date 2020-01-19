@@ -30,6 +30,16 @@ Version: 0.0.5
   }
 
 
+
+
+/*  ----- 
+-- prófa að breyta milli padding og margin til að sjá hvort columnarnir byrji uppi
+-- setja bakgrunnsmynd aftast
+-- hafa mynd fremst á abstract
+-- laga litla bugga
+*/
+
+
 body {
   height: 100vh;
   width: 100vw;
@@ -289,7 +299,7 @@ a {
   margin-bottom: 50px;
   margin-right: 30px;
 
-  background-color: rgba(235,255,235,1);
+  /*background-color: rgba(235,255,235,1);*/
 }
 .withoutbackground {
   background-color: rgba(0,0,0,0) !important;
@@ -337,6 +347,19 @@ a {
   /*float: right;*/
   width: 100vw;
 }
+.firstImage {
+  position: absolute; 
+  top: 18vh; 
+  left: 30px; 
+  width: 75vw; 
+  pointer-events: none;
+  z-index: -1;
+}
+
+
+
+
+
 .quote {
   text-align: center !important;
   font: 40px 'liberage';
