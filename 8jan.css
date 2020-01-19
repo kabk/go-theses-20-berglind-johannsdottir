@@ -161,12 +161,18 @@ a {
 
   text-align: center;
   overflow-x: hidden;
+
+  background-color: rgb(14,85,18);
+}
+.cover a, .cover div {
+  color: rgba(235,255,235,1) !important;
 }
 .coverimage {
   width: 100%;
 }
 .abstract {
   top: 0%;
+  background-color: rgb(46,177,93);
 }
 .preface {
   top: 0%;
@@ -295,6 +301,7 @@ a {
   line-height: 21px;
 
   padding-bottom: calc(4vh);
+  z-index: 2;
 }
 .textContainer p {
   margin-bottom: 50px;
@@ -340,21 +347,21 @@ a {
 .myndITexta100 {
   width: 100%;
 }
-.myndITexta50:hover, .myndITexta100:hover {
+/*.myndITexta50:hover, .myndITexta100:hover {
   max-width: 200%;
   margin-left: -50%;
   width: 200%;
   margin-left: -100%;
-  /*float: right;*/
+  *//*float: right;*//*
   width: 100vw;
-}
+}*/
 .firstImage {
   position: absolute; 
   top: 18vh; 
   left: 30px; 
   width: 75vw; 
   pointer-events: none;
-  z-index: -1;
+  z-index: 1;
 }
 .monoHideImage {
   position: absolute; 
