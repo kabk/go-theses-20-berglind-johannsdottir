@@ -44,6 +44,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: rgba(235,255,235,1);
+  background-color: rgba(250,255,245,1);
 
   margin: 0px !important;
   overflow-y: scroll;
@@ -354,6 +355,15 @@ a {
   width: 75vw; 
   pointer-events: none;
   z-index: -1;
+}
+.monoHideImage {
+  position: absolute; 
+  top: 18vh; 
+  left: calc(100% - 30px); 
+  width: 75vw; 
+  /*pointer-events: none;*/
+  z-index: 1;
+  background-color: red;
 }
 
 
