@@ -162,14 +162,14 @@ a {
   text-align: center;
   overflow-x: hidden;
 
-  background-color: rgb(14,85,18);
+  /*background-color: rgb(14,85,18);*/
+
+  background-image: url('igms/dinamic/dinamic poster_0.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.cover a, .cover div {
-  color: rgba(235,255,235,1) !important;
-}
-.coverimage {
-  width: 100%;
-}
+.cover a, .cover div {color: rgba(235,255,235,1) !important;}
+.coverimage {width: 100%;}
 .abstract {
   top: 0%;
   background-color: rgb(46,177,93);
@@ -193,11 +193,7 @@ a {
   text-align: center;
   
 }
-.index a, .index div {
-  color: rgba(235,255,235,1) !important;
-}
-.index .textContainer div {
-}
+.index a, .index div {color: rgba(235,255,235,1) !important;}
 .intro {
   top: 0%;
 }
@@ -239,11 +235,11 @@ a {
 
   z-index: 14;
   font: 80px 'Vidaloka';
-  line-height: 30px;
+  line-height: 80px;
   letter-spacing: -2px;
   text-transform: uppercase;
 
-  color: green;
+  color: black;
 }
 .titill {
   position: absolute;
