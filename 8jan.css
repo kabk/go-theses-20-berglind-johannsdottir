@@ -150,7 +150,10 @@ a {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 90%;
-  background-position: top 10vh right 10vw;
+  background-position: bottom 0vh left 0vw;
+}
+.container p {
+  background-color: rgba(250,255,245,0.5);
 }
 .cover {
   top: 0%;
