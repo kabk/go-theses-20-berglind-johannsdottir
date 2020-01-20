@@ -206,13 +206,18 @@ a {
 }
 .attention {
 }
-.magic {
+.magic {background-image: url('igms/dinamic/dinamic poster all_mono.png');}
+.magic p {
+  background-color: rgb(245,255,245);
 }
 .magic .titill{
   font-family: 'coastline' !important;
   line-height: 32px;
 }
 .new {
+  background-color: rgb(250,255,250);
+
+  background-image: url('igms/dinamic/dinamic poster all_mono.png');
 }
 
 .linkur {
@@ -246,7 +251,7 @@ a {
   letter-spacing: -2px;
   text-transform: uppercase;
 
-  color: black;
+  /*color: black;*/
 }
 .titill {
   position: absolute;
@@ -271,7 +276,7 @@ a {
 .coverundertitle {
   z-index: 9 !important;
   position: absolute;
-  top: 15vh;
+  top: 16vh;
   /*top: 100%;
   margin-bottom: 90vh;*/
 }
