@@ -186,6 +186,7 @@ sup {
   background-position: top 0vh right 0vw;*/
   background-size: 84%;
   background-position: bottom 10px left 10px;
+  border-bottom: none;
 }
 .cover a, .cover div {color: rgba(235,255,235,1) !important;}
 .coverimage {width: 100%;}
@@ -219,7 +220,7 @@ sup {
 .intro {background-image: url('igms/dinamic/mono plus intro.png');}
 .romance {background-image: url('igms/dinamic/mono plus romance.png');}
 .feminine {background-image: url('igms/dinamic/mono plus feminine.png');}
-.passive {background-image: url('igms/dinamic/mono plus passive 1.png');}
+.passive {background-image: url('igms/dinamic/mono plus passive 1.png'); border-bottom: none;}
 .passive2 {background-image: url('igms/dinamic/mono plus passive 2.png');}
 .lack {background-image: url('igms/dinamic/lack mono.png');}
 .beast {background-image: url('igms/dinamic/mono plus beast.png');}
