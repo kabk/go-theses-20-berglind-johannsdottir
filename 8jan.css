@@ -437,7 +437,7 @@ sup {
     column-fill: auto;
     column-gap: 20px;
 }
-.myndITexta50, .myndITexta100 {
+.myndITexta50, .myndITexta100, .myndITextafremst, .myndITexta200 {
   z-index: 999999999;
   text-align: center;
 }
@@ -447,6 +447,16 @@ sup {
 }
 .myndITexta100 {
   width: 100%;
+}
+.myndITexta200 {
+  width: 200%;
+}
+.myndabil200 {
+  height: 180%;
+}
+.myndITextafremst {
+  max-width: 100%;
+  max-height: 100%;
 }
 /*.myndITexta50:hover, .myndITexta100:hover {
   max-width: 200%;
