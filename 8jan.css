@@ -200,6 +200,7 @@ a {
 .romance {background-image: url('igms/dinamic/mono plus romance.png');}
 .feminine {background-image: url('igms/dinamic/mono plus feminine.png');}
 .passive {background-image: url('igms/dinamic/mono plus passive 1.png');}
+.passive2 {background-image: url('igms/dinamic/mono plus passive 2.png');}
 .lack {
 }
 .beast {
@@ -308,7 +309,35 @@ a {
   display: none;
 }
 
+.textContainer2 {
+  position: absolute;
+  height: 81vh;
+  background-color: red;
 
+  left: 0%;
+  top: 102vh;
+  /*bottom: 0%;*/
+  right: 0%;
+  /*padding-right: 100px;*/
+  padding-right: 50px;
+  padding-left: 30px;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  color: rgb(14,85,18);
+  line-height: 28px;
+  hyphens: none;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  font: 19px 'Playfair Display', serif;
+  font-size: 16px;
+  line-height: 21px;
+
+  padding-bottom: calc(4vh);
+  z-index: 2;
+}
 .textContainer {
   position: absolute;
   height: 81vh;
