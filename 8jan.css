@@ -170,11 +170,12 @@ a {
   /*background-color: rgb(14,85,18);*/
 
   background-image: url('igms/dinamic/dinamic poster_0.jpg');
+  background-image: url('igms/altbase.jpg');
 }
 .cover a, .cover div {color: rgba(235,255,235,1) !important;}
 .coverimage {width: 100%;}
 .abstract {
-  background-color: rgb(46,177,93);
+  background-color: rgb(250,255,250);
 
   background-image: url('igms/dinamic/dinamic poster all_mono.png');
 }
@@ -218,6 +219,18 @@ a {
   display: none;
 }
 
+.ontopgif {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url('igms/dinamic/mono plus romance.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
 
 
 .covertitill {
@@ -257,6 +270,10 @@ a {
 }
 .coverundertitle {
   z-index: 9 !important;
+  position: absolute;
+  top: 15vh;
+  /*top: 100%;
+  margin-bottom: 90vh;*/
 }
  .lineheightundertitle {
     line-height: 22px;
