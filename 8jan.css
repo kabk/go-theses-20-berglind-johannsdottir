@@ -445,6 +445,10 @@ sup {
   width: 50%;
   margin-left: 25%;
 }
+.myndITexta50:hover {
+  width: 100%;
+  margin-left: 0%;
+}
 .myndITexta100 {
   width: 100%;
 }
