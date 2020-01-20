@@ -173,6 +173,9 @@ a {
   background-image: url('igms/altbase.jpg');*/
   /*background-color: rgb(46,177,93);*/
   background-image: url('igms/dinamic/cover.gif');
+  background-image: url('igms/altbase.jpg');
+  background-size: cover;
+  background-position: top 0vh right 0vw;
 }
 .cover a, .cover div {color: rgba(235,255,235,1) !important;}
 .coverimage {width: 100%;}
@@ -180,6 +183,7 @@ a {
   background-color: rgb(250,255,250);
 
   background-image: url('igms/dinamic/dinamic poster all_mono.png');
+  background-image: url('igms/dinamic/cover.gif');
 }
 .preface {background-image: url('igms/dinamic/dinamic poster_1.png');}
 .preface p {
@@ -295,11 +299,24 @@ a {
   background-color: rgb(46,177,93);
   background-color: rgb(235,255,235);
   
-  bottom: 10vh !important;
+  /*bottom: 10vh !important;*/
   top: auto;
   left: 30px;
   right: 30px;
   border: solid 1px rgb(14,85,18);
+
+
+
+  color: rgb(46,177,93);
+  top: 18vh;
+  bottom: auto;
+  left: 50vw;
+  right: 10px;
+  border: none;
+  background-color: rgba(0,0,0,0);
+  padding: 0px;
+
+  color: rgb(235,255,235);
 }
 .coverundertitle p {
   color: rgb(46,177,93) !important;
