@@ -146,6 +146,11 @@ a {
 
   scroll-snap-align: start;
   -webkit-overflow-scrolling: touch;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*background-size: 90%;
+  background-position: top 10vh right 10vw;*/
 }
 .cover {
   top: 0%;
@@ -165,19 +170,15 @@ a {
   /*background-color: rgb(14,85,18);*/
 
   background-image: url('igms/dinamic/dinamic poster_0.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .cover a, .cover div {color: rgba(235,255,235,1) !important;}
 .coverimage {width: 100%;}
 .abstract {
-  top: 0%;
   background-color: rgb(46,177,93);
+
+  background-image: url('igms/dinamic/dinamic poster all_mono.png');
 }
-.preface {
-  top: 0%;
-  /*background-color: rgb(14,85,18);*/
-}
+.preface {background-image: url('igms/dinamic/dinamic poster_1.png');}
 .preface p {
 }
 .index {
@@ -194,17 +195,10 @@ a {
   
 }
 .index a, .index div {color: rgba(235,255,235,1) !important;}
-.intro {
-  top: 0%;
-}
-.romance {
-  top: 0%;
-}
-.feminine {
-  top: 0%;
-}
-.passive {
-}
+.intro {background-image: url('igms/dinamic/mono plus intro.png');}
+.romance {background-image: url('igms/dinamic/mono plus romance.png');}
+.feminine {background-image: url('igms/dinamic/mono plus feminine.png');}
+.passive {background-image: url('igms/dinamic/mono plus passive 1.png');}
 .lack {
 }
 .beast {
