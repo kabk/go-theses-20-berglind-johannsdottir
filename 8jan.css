@@ -191,9 +191,7 @@ a {
   background-image: url('igms/dinamic/dinamic poster all_mono.png');
   /*background-image: url('igms/dinamic/cover.gif');*/
 }
-.abstract p {
-  background-color: rgba(0,0,0,0);
-}
+.abstract p {background-color: rgba(0,0,0,0);}
 .preface {background-image: url('igms/dinamic/dinamic poster_1.png');}
 .preface p {
 }
@@ -218,8 +216,8 @@ a {
 .passive2 {background-image: url('igms/dinamic/mono plus passive 2.png');}
 .lack {background-image: url('igms/dinamic/lack mono.png');}
 .beast {background-image: url('igms/dinamic/mono plus beast.png');}
-.attention {
-}
+.attention {background-image: url('igms/dinamic/dinamic poster all_mono.png');}
+.attention p {background-color: rgba(0,0,0,0);}
 .magic {background-image: url('igms/magic/magic.gif'); background-color: rgb(236,244,236);}
 .magic p {
   background-color: rgb(245,255,245);
@@ -236,6 +234,7 @@ a {
 
   background-image: url('igms/dinamic/dinamic poster all_mono.png');
 }
+.new p {background-color: rgba(0,0,0,0);}
 
 .linkur {
   display: none;
