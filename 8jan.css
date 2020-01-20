@@ -206,7 +206,7 @@ a {
 }
 .attention {
 }
-.magic {background-image: url('igms/dinamic/dinamic poster all_mono.png');}
+.magic {background-image: url('igms/magic/magic.gif');}
 .magic p {
   background-color: rgb(245,255,245);
 }
@@ -230,7 +230,7 @@ a {
   height: 100%;
   top: 0%;
   left: 0%;
-  background-image: url('igms/dinamic/mono plus romance.png');
+  background-image: url('igms/dinamic/cover.gif');
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
