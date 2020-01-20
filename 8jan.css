@@ -145,7 +145,7 @@ sup {
   position: relative;
   left: 0%;
   top: 0%;
-  height: 100vh;
+  height: 94vh;
   width: 100vw;
   border-bottom: 1px solid green;
 
@@ -373,6 +373,7 @@ sup {
 .textContainer {
   position: absolute;
   height: 81vh;
+  height: 75vh;
 
   left: 0%;
   top: 15vh;
