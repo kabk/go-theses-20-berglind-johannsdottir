@@ -60,6 +60,10 @@ a {
   color: rgb(14,37,18);
 }
 
+sup {
+  line-height: 0px;
+}
+
 
 
 
@@ -154,7 +158,7 @@ a {
   background-position: bottom 10px left 10px;
 }
 .container p {
-  background-color: rgba(236,246,236,0.5);
+  background-color: rgba(236,246,236,0.7);
 }
 .cover {
   top: 0%;
@@ -185,6 +189,20 @@ a {
 }
 .cover a, .cover div {color: rgba(235,255,235,1) !important;}
 .coverimage {width: 100%;}
+.colophon {
+  height: 70vh;
+}
+.colophon p, .colophon div {
+  color: rgb(46,177,93);
+}
+.textContainerColophon {
+  height: 51vh !important;
+
+  left: 0%;
+  top: 15vh;
+  bottom: 0vh;
+  right: 0%;
+}
 .abstract {
   background-color: rgb(250,255,250);
 
@@ -235,9 +253,19 @@ a {
   background-image: url('igms/dinamic/dinamic poster all_mono.png');
 }
 .new p {background-color: rgba(0,0,0,0);}
+.sourcestext, .sourcesimages {
+  background-color: rgb(46,177,93);
+}
+.sourcestext a, .sourcestext div, .sourcestext p, .sourcesimages a, .sourcesimages div, .sourcesimages p {color: rgba(235,255,235,1) !important; background-color: rgba(0,0,0,0);}
 
 .linkur {
   display: none;
+}
+.arrowdown {
+  text-align: center; 
+  font: 30px arial;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .ontopgif {
