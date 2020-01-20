@@ -209,6 +209,9 @@ a {
 .magic {background-image: url('igms/magic/magic.gif');}
 .magic p {
   background-color: rgb(245,255,245);
+
+  border: 1px solid rgb(14,85,18);
+  padding: 5px;
 }
 .magic .titill{
   font-family: 'coastline' !important;
