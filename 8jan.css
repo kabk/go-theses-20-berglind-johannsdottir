@@ -243,6 +243,9 @@ sup {
   background-image: url('igms/dinamic/dinamic poster all_mono.png');
 }
 .new p {background-color: rgba(0,0,0,0);}
+.final {background-color: rgb(250,255,250);}
+.final p {background-color: rgba(0,0,0,0);}
+.final p, .final div {color: rgb(46,177,93);}
 .sourcestext, .sourcesimages {
   background-color: rgb(46,177,93);
 }
@@ -536,6 +539,9 @@ sup {
 .footnotes6 {
   background-color: #fef680;
 }
+.undirstrikad {
+  text-decoration: underline;
+}
 
 
 
@@ -546,6 +552,7 @@ sup {
     width: 80%;
     margin-left: 20vw !important;
     /*border-left: 1px solid rgb(14,37,18);*/
+    background-size: contain;
   }
   .underlinegrass {
     left: 23%;
