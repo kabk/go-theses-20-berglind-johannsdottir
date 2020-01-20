@@ -45,6 +45,7 @@ body {
   width: 100vw;
   background-color: rgba(235,255,235,1);
   background-color: rgba(250,255,245,1);
+  background-color: rgb(236,246,236);
 
   margin: 0px !important;
   overflow-y: scroll;
@@ -149,8 +150,8 @@ a {
 
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 90%;
-  background-position: bottom 0vh left 0vw;
+  background-size: 84%;
+  background-position: bottom 10px left 10px;
 }
 .container p {
   background-color: rgba(250,255,245,0.5);
@@ -175,10 +176,12 @@ a {
   /*background-image: url('igms/dinamic/dinamic poster_0.jpg');
   background-image: url('igms/altbase.jpg');*/
   /*background-color: rgb(46,177,93);*/
-  background-image: url('igms/dinamic/cover.gif');
-  background-image: url('igms/altbase.jpg');
-  background-size: cover;
-  background-position: top 0vh right 0vw;
+  background-image: url('igms/dinamic/cover2.gif');
+  /*background-image: url('igms/altbase3.jpg');*/
+  /*background-size: cover;
+  background-position: top 0vh right 0vw;*/
+  background-size: 84%;
+  background-position: bottom 10px left 10px;
 }
 .cover a, .cover div {color: rgba(235,255,235,1) !important;}
 .coverimage {width: 100%;}
@@ -186,7 +189,7 @@ a {
   background-color: rgb(250,255,250);
 
   background-image: url('igms/dinamic/dinamic poster all_mono.png');
-  background-image: url('igms/dinamic/cover.gif');
+  /*background-image: url('igms/dinamic/cover.gif');*/
 }
 .preface {background-image: url('igms/dinamic/dinamic poster_1.png');}
 .preface p {
@@ -211,11 +214,10 @@ a {
 .passive {background-image: url('igms/dinamic/mono plus passive 1.png');}
 .passive2 {background-image: url('igms/dinamic/mono plus passive 2.png');}
 .lack {background-image: url('igms/dinamic/lack mono.png');}
-.beast {
-}
+.beast {background-image: url('igms/dinamic/mono plus beast.png');}
 .attention {
 }
-.magic {background-image: url('igms/magic/magic.gif');}
+.magic {background-image: url('igms/magic/magic.gif'); background-color: rgb(236,244,236);}
 .magic p {
   background-color: rgb(245,255,245);
 
@@ -299,8 +301,8 @@ a {
   margin-bottom: 90vh;*/
 
 
-  background-color: rgb(46,177,93);
-  background-color: rgb(235,255,235);
+  /*background-color: rgb(46,177,93);
+  background-color: rgb(235,255,235);*/
   
   /*bottom: 10vh !important;*/
   top: auto;
@@ -316,10 +318,13 @@ a {
   left: 50vw;
   right: 10px;
   border: none;
-  background-color: rgba(0,0,0,0);
+  /*background-color: rgba(0,0,0,0);*/
   padding: 0px;
 
-  color: rgb(235,255,235);
+  /*color: rgb(235,255,235);*/
+
+  bottom: 9vh;
+  top: auto;
 }
 .coverundertitle p {
   color: rgb(46,177,93) !important;
