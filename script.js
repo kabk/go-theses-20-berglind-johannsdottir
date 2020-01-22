@@ -13,6 +13,28 @@ $(function () {
 
 
 
+
+
+
+
+/* prófa næst f section anchor :
+        function moveTo(sectionAnchor, slideAnchor){
+            var destiny = getSectionByAnchor(sectionAnchor);
+
+            if (typeof slideAnchor !== 'undefined'){
+                scrollPageAndSlide(sectionAnchor, slideAnchor);
+            }else if(destiny != null){
+                scrollPage(destiny);
+            }
+        }
+*/
+
+
+
+
+
+
+
 /*
 bætti þessu að neðan við til að taka linkinn í vinstra niðri horninu sem er sjukt pirrandi,
 veit ekki hversu sniðugt þetta er samt.
