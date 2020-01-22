@@ -43,8 +43,6 @@ Version: 0.0.5
 body {
   height: 100vh;
   width: 100vw;
-  background-color: rgba(235,255,235,1);
-  background-color: rgba(250,255,245,1);
   background-color: rgb(236,246,236);
 
   margin: 0px !important;
@@ -58,6 +56,9 @@ body {
 a {
   text-decoration: none;
   color: rgb(14,37,18);
+}
+a:hover {
+  text-decoration: underline;
 }
 
 sup {
