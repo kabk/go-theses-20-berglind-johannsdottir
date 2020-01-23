@@ -76,48 +76,23 @@ sup {
   width: 100%;
   height: 100%;
   background-color: rgba(255,255,255,.9);
-
-  font-family: 'ortica';
-  font-size: 35px;
   color: rgb(14,37,18);
-  line-height: 55px;
   text-align: center;
   overflow: scroll;
-
-  display: none;
-
-  /*font-family: 'Permanent Marker', cursive !important;*/
   font-size: 25px !important;
-  /*color: lightgreen;*/
-
   font: 25px 'Vidaloka' !important;
   line-height: 22px;
+  display: none;
 }
-
 .indexMenu p, .indexMenu a {
   position: relative;
   top: 0px;
   margin-top: 20px;
   margin-bottom: 10px !important;
   cursor: pointer;
-
-  /*color: rgba(235,255,235,1) !important;*/
   color: rgb(14,85,18);
-
-
 }
-.indexMenu p:hover, .indexMenu a:hover {
-  /*background-color: lightgreen;
-  border-top: 2px solid rgb(14,37,18);
-  border-top: 3px solid rgb(14,85,18);
-  border-radius: 30px;
-  border-bottom: 2px solid rgb(14,37,18);*/
-
-  color: rgba(235,255,235,1) !important;
-
-  /*border-bottom: 2px solid rgb(14,37,18);
-  border-radius: 30px;*/
-}
+.indexMenu p:hover, .indexMenu a:hover {color: rgba(235,255,235,1) !important;}
 .openMenu {
   position: fixed;
   bottom: 15px;
@@ -163,9 +138,6 @@ sup {
   background-size: auto 84% ;
   background-position: bottom 10px left 10px;
 }
-.container p {
-  /*background-color: rgba(236,246,236,0.7);*/
-}
 .cover {
   top: 0%;
   height: 100%;
@@ -177,51 +149,34 @@ sup {
   text-align: center;
   overflow-x: hidden;
 
-  background-image: url('igms/dinamic/cover2.gif');
+  background-image: url('igms/dinamic/cover2.gif'); /* bæta inn síðasta ef ég hef tíma */
   background-size: 84%;
   background-position: bottom 10px left 10px;
   border-bottom: none;
 }
-.cover a, .cover div {color: rgba(235,255,235,1) !important;}
 .coverimage {width: 100%;}
 .colophon {height: 70vh;}
-.colophon p, .colophon div {color: rgb(46,177,93);}
 .textContainerColophon {height: 51vh !important;}
-.abstract {
-  background-color: rgb(250,255,250);
-  background-image: url('igms/dinamic/dinamic poster all_mono.png');
-}
-.abstract p {background-color: rgba(0,0,0,0);}
-.abstract p, .abstract div {color: rgb(46,177,93);}
-.preface {background-image: url('igms/dinamic/dinamic poster_1.png');}
-.preface p {
-}
+.abstract {background-image: url('igms/dinamic/dinamic poster all_mono.png');}
+.preface {background-image: url('igms/preface/under.png');}
 .index {
-  top: 0%;
   background-image: url(igms/index/fluff.png);
   background-size: 30%;
   background-position: bottom 20px right 30px;
   background-repeat: no-repeat;
-
-  background-color: rgb(46,177,93);
-
   text-align: center;
-  
 }
-.index a, .index div {color: rgba(235,255,235,1) !important;}
-.intro {background-image: url('igms/dinamic/mono plus intro.png');}
-.romance {background-image: url('igms/romance/7.png');}
-.feminine {background-image: url('igms/dinamic/mono plus feminine.png');}
-.passive {background-image: url('igms/dinamic/mono plus passive 1.png'); border-bottom: none;}
-.passive2 {background-image: url('igms/dinamic/mono plus passive 2.png');}
-.lack {background-image: url('igms/dinamic/lack mono.png');}
+.intro {background-image: url('igms/intro/under.png');}
+.romance {background-image: url('igms/romance/under.png');}
+.feminine {background-image: url('igms/feminine/under.png');}
+.passive {background-image: url('igms/passive/under1.png'); border-bottom: none;}
+.passive2 {background-image: url('igms/passive2/under2.png');}
+.lack {background-image: url('igms/lack/under.png');}
 .beast {background-image: url('igms/dinamic/mono plus beast.png');}
 .attention {background-image: url('igms/dinamic/dinamic poster all_mono.png');}
-.attention p {background-color: rgba(0,0,0,0);}
 .magic {background-image: url('igms/magic/magic.gif'); background-color: rgb(236,244,236);}
 .magic p {
   background-color: rgb(245,255,245);
-
   border: 1px solid rgb(14,85,18);
   padding: 5px;
 }
@@ -229,23 +184,15 @@ sup {
   font-family: 'coastline' !important;
   line-height: 32px;
 }
-.new {
-  /*background-color: rgb(250,255,250);*/
+.new {background-image: url('igms/dinamic/dinamic poster all_mono.png');}
 
-  background-image: url('igms/dinamic/dinamic poster all_mono.png');
-}
-.new p {background-color: rgba(0,0,0,0);}
-.final {background-color: rgb(250,255,250);}
-.final p {background-color: rgba(0,0,0,0);}
-.final p, .final div {color: rgb(46,177,93);}
-.sourcestext, .sourcesimages {
-  background-color: rgb(46,177,93);
-}
-.sourcestext a, .sourcestext div, .sourcestext p, .sourcesimages a, .sourcesimages div, .sourcesimages p {color: rgba(235,255,235,1) !important; background-color: rgba(0,0,0,0);}
 
-.linkur {
-  display: none;
-}
+.colophon p, .colophon div, .abstract p, .abstract div, .final p, .final div {color: rgb(46,177,93);}
+.index, .sourcestext, .sourcesimages {background-color: rgb(46,177,93);}
+.abstract, .final {background-color: rgb(250,255,250);}
+.cover a, .cover div, .index a, .index div, .sourcestext a, .sourcestext div, .sourcestext p, .sourcesimages a, .sourcesimages div, .sourcesimages p {color: rgba(235,255,235,1) !important;}
+
+
 .arrowdown {
   text-align: center; 
   font: 30px arial;
@@ -276,12 +223,10 @@ sup {
 
   z-index: 14;
   font: 80px 'Vidaloka';
-  /*line-height: 80px;*/
+
   letter-spacing: -2px;
   text-transform: uppercase;
   -webkit-text-stroke: .8px rgb(14,85,18);
-
-  /*color: black;*/
 }
 .titill {
   position: absolute;
@@ -306,47 +251,18 @@ sup {
 .coverundertitle {
   z-index: 9 !important;
   position: absolute;
-  /*top: 16vh;*/
-  /*font-size: 24px;*/
-  /*-webkit-text-stroke: 0.2px rgb(46,177,93);*/
-  /*-webkit-text-stroke: 0.1px rgb(14,85,18);*/
-  color: rgb(14,85,18);
-  padding: 5px;
-  /*top: 100%;
-  margin-bottom: 90vh;*/
-
-
-  /*background-color: rgb(46,177,93);
-  background-color: rgb(235,255,235);*/
-  
-  /*bottom: 10vh !important;*/
-  top: auto;
-  left: 30px;
-  right: 30px;
-  border: solid 1px rgb(14,85,18);
-
-
 
   color: rgb(46,177,93);
-  top: 18vh;
-  bottom: auto;
   left: 50vw;
   right: 10px;
   border: none;
-  /*background-color: rgba(0,0,0,0);*/
   padding: 0px;
-
-  /*color: rgb(235,255,235);*/
 
   bottom: 9vh;
   top: auto;
 }
-.coverundertitle p {
-  color: rgb(46,177,93) !important;
-}
- .lineheightundertitle {
-    line-height: 22px;
-  }
+.coverundertitle p {color: rgb(46,177,93) !important;}
+.lineheightundertitle {line-height: 22px;}
 .underlinegrass {
   position: fixed;
   top: 50px;
@@ -360,9 +276,6 @@ sup {
   display: none;
 }
 
-.sources {
-  display: none;
-}
 
 
 .textContainer {
@@ -370,44 +283,37 @@ sup {
   height: 90vh;
 
   left: 0%;
-  padding-top: 15vh;
   bottom: 0%;
   right: 0%;
-  /*padding-right: 100px;*/
-  padding-right: 50px;
-  padding-left: 30px;
-
 
   overflow-x: scroll;
-  overflow-y: hidden;
-
-  color: rgb(14,85,18);
-  line-height: 28px;
-  hyphens: none;
+  overflow-y: hidden;  
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 
+  color: rgb(14,85,18);
   font: 19px 'Playfair Display', serif;
   font-size: 16px;
   line-height: 21px;
+  hyphens: none;
 
+  padding-right: 50px;
+  padding-left: 30px;
   padding-bottom: calc(4vh);
   padding-top: calc(15vh);
+
   z-index: 2;
 }
 .greinTexti {
   padding-top: 15vh;
   height: calc(100% - 15vh)
+
 }
 .textContainer p {
   margin-bottom: 50px;
   margin-right: 30px;
-
-  /*background-color: rgba(235,255,235,1);*/
 }
-.withoutbackground {
-  background-color: rgba(0,0,0,0) !important;
-}
+.withoutbackground {background-color: rgba(0,0,0,0) !important;}
 
 
 
@@ -424,10 +330,7 @@ sup {
   border-radius: 5px;
 }
 
-
 .greinTexti {
-    /*height: 100%;
-    columns: 10;*/
     column-width: 400px;
     column-fill: auto;
     column-gap: 20px;
@@ -457,14 +360,6 @@ sup {
   max-width: 100%;
   max-height: 100%;
 }
-/*.myndITexta50:hover, .myndITexta100:hover {
-  max-width: 200%;
-  margin-left: -50%;
-  width: 200%;
-  margin-left: -100%;
-  *//*float: right;*//*
-  width: 100vw;
-}*/
 .firstImage {
   position: absolute; 
   top: 18vh; 
@@ -504,33 +399,7 @@ sup {
   font-style: italic;
   font-family: 'Ibarra Real Nova', serif !important;
 }
-.fyrirsogn {
-  font: bold 17px 'pt sans';
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.footnotes1, .footnotes2, .footnotes3, .footnotes4, .footnotes5, .footnotes6 {
-  font-weight: bold;
-}
-.footnotes1 {
-  background-color: lightblue;
-}
-.footnotes2 {
-  background-color: cyan;
-  color: darkblue;
-}
-.footnotes3 {
-  background-color: violet;
-}
-.footnotes4 {
-  background-color: lightpink;
-}
-.footnotes5 {
-  background-color: lightgreen;
-}
-.footnotes6 {
-  background-color: #fef680;
-}
+
 .undirstrikad {
   text-decoration: underline;
 }
