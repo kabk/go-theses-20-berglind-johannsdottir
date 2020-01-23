@@ -137,7 +137,12 @@ sup {
   z-index: 99999;
 }
 
-
+.firstpicture {
+  position: absolute; 
+  left: 10px; 
+  bottom: 0px; 
+  height: 78.96vh;
+}
 
 
 
@@ -155,7 +160,7 @@ sup {
 
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 84%;
+  background-size: auto 84% ;
   background-position: bottom 10px left 10px;
 }
 .container p {
@@ -165,26 +170,14 @@ sup {
   top: 0%;
   height: 100%;
   width: 100%;
-  /*background-image: url(igms/base2.png);*/
-  /*background-size: 30%;
-  background-position: bottom 20px right 30px;*/
+
   background-size: cover;
   background-repeat: no-repeat;
-
-  /*background-color: rgb(46,177,93);*/
 
   text-align: center;
   overflow-x: hidden;
 
-  /*background-color: rgb(14,85,18);*/
-
-  /*background-image: url('igms/dinamic/dinamic poster_0.jpg');
-  background-image: url('igms/altbase.jpg');*/
-  /*background-color: rgb(46,177,93);*/
   background-image: url('igms/dinamic/cover2.gif');
-  /*background-image: url('igms/altbase3.jpg');*/
-  /*background-size: cover;
-  background-position: top 0vh right 0vw;*/
   background-size: 84%;
   background-position: bottom 10px left 10px;
   border-bottom: none;
@@ -196,9 +189,7 @@ sup {
 .textContainerColophon {height: 51vh !important;}
 .abstract {
   background-color: rgb(250,255,250);
-
   background-image: url('igms/dinamic/dinamic poster all_mono.png');
-  /*background-image: url('igms/dinamic/cover.gif');*/
 }
 .abstract p {background-color: rgba(0,0,0,0);}
 .abstract p, .abstract div {color: rgb(46,177,93);}
@@ -212,7 +203,6 @@ sup {
   background-position: bottom 20px right 30px;
   background-repeat: no-repeat;
 
-  background-color: rgb(106,217,53);
   background-color: rgb(46,177,93);
 
   text-align: center;
@@ -220,7 +210,7 @@ sup {
 }
 .index a, .index div {color: rgba(235,255,235,1) !important;}
 .intro {background-image: url('igms/dinamic/mono plus intro.png');}
-.romance {background-image: url('igms/dinamic/mono plus romance.png');}
+.romance {background-image: url('igms/romance/7.png');}
 .feminine {background-image: url('igms/dinamic/mono plus feminine.png');}
 .passive {background-image: url('igms/dinamic/mono plus passive 1.png'); border-bottom: none;}
 .passive2 {background-image: url('igms/dinamic/mono plus passive 2.png');}
@@ -377,11 +367,10 @@ sup {
 
 .textContainer {
   position: absolute;
-  height: 81vh;
-  height: 75vh;
+  height: 90vh;
 
   left: 0%;
-  top: 15vh;
+  padding-top: 15vh;
   bottom: 0%;
   right: 0%;
   /*padding-right: 100px;*/
@@ -392,8 +381,6 @@ sup {
   overflow-x: scroll;
   overflow-y: hidden;
 
-  color: #232b2b;
-  color: rgb(14,37,18);
   color: rgb(14,85,18);
   line-height: 28px;
   hyphens: none;
@@ -402,12 +389,15 @@ sup {
 
   font: 19px 'Playfair Display', serif;
   font-size: 16px;
-  /*line-height: 28px;
-  line-height: 23px;*/
   line-height: 21px;
 
   padding-bottom: calc(4vh);
+  padding-top: calc(15vh);
   z-index: 2;
+}
+.greinTexti {
+  padding-top: 15vh;
+  height: calc(100% - 15vh)
 }
 .textContainer p {
   margin-bottom: 50px;
@@ -436,8 +426,8 @@ sup {
 
 
 .greinTexti {
-    height: 100%;
-    /*columns: 10;*/
+    /*height: 100%;
+    columns: 10;*/
     column-width: 400px;
     column-fill: auto;
     column-gap: 20px;
