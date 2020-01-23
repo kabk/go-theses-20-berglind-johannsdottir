@@ -171,20 +171,16 @@ sup {
 .feminine {background-image: url('igms/feminine/under.png');}
 .passive {background-image: url('igms/passive/under1.png'); border-bottom: none;}
 .passive2 {background-image: url('igms/passive2/under2.png');}
-.lack {background-image: url('igms/lack/under.png');}
-.beast {background-image: url('igms/dinamic/mono plus beast.png');}
-.attention {background-image: url('igms/dinamic/dinamic poster all_mono.png');}
-.magic {background-image: url('igms/magic/magic.gif'); background-color: rgb(236,244,236);}
-.magic p {
-  background-color: rgb(245,255,245);
-  border: 1px solid rgb(14,85,18);
-  padding: 5px;
-}
+.lack {background-image: url('igms/passive2/under2.png');}
+.beast {background-image: url('igms/beast/under.png');}
+.attention {background-image: url('igms/beast/under.png');}
+.magic {background-image: url('igms/beast/under.png');}
 .magic .titill{
   font-family: 'coastline' !important;
   line-height: 32px;
 }
-.new {background-image: url('igms/dinamic/dinamic poster all_mono.png');}
+.new {background-image: url('igms/new/under.png');}
+.final {background-image: url('igms/new/under.png');}
 
 
 .colophon p, .colophon div, .abstract p, .abstract div, .final p, .final div {color: rgb(46,177,93);}
