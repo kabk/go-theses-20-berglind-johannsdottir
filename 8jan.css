@@ -115,7 +115,7 @@ sup {
 .firstpicture {
   position: absolute; 
   left: 10px; 
-  bottom: 5px; 
+  bottom: 10px; 
   height: 78.96vh;
 }
 
@@ -397,5 +397,24 @@ sup {
 
 .undirstrikad {
   text-decoration: underline;
+}
+
+
+
+@media screen and (min-width: 1000px){ 
+  .cover {
+    background-size: contain;
+    background-position: auto auto;
+  }
+
+  .firstpicture {
+    bottom: 0px; 
+  }
+
+  .index {
+    background-size: 20%;
+    background-position: bottom 40px right 50px;
+  }
+
 }
 
